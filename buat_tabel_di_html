@@ -1,0 +1,201 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar_tabel</title>
+</head>
+<body>
+    <marquee style="font-size: xx-large;"> SEMOGA KALIAN PAHAM YA !!! :)</marquee>
+    <h1> oke, sekarang kita belajar tata cara buat tabel di html</h1>
+    <h2> kita jelasin dulu tag dan atributnya ya...</h2>
+    <p> tagnya..!</p>
+    <p> (table) tempat semua baris dan kolom</p>
+    <p> oke atributnya adalah...!</p>
+    <dl>
+        <dt> BORDER="1"</dt>
+        <dd> untuk kasih garis tabel</dd>
+        <dt> CELLPADDING="5"</dt>
+        <dd> jarak isi sel ke pinggir</dd>
+        <dt> CELLSPACING="5"</dt>
+        <dd> jarak antar sel</dd>
+        <dt> WIDTH="angka/%"</dt>
+        <dd> lebar tabel</dd>
+        <dt> ALIGN="center"</dt>
+        <dd> posisi tabel</dd>
+        <dt> BGCOLOR="warna"</dt>
+        <dd> warna backround tabel</dd>
+    </dl>
+    <br>
+    <br>
+    <br>
+    <p> oke sekarang kita ke tag selanjutnya...!</p>
+    <p> (tr) table row/baris, bikin baris di dalam tabel</p>
+    <p> atributnya...!</p>
+    <br>
+    <dl>
+        <dt> ALIGN="left/center/right"</dt>
+        <dd> rata teks dalam baris</dd>
+        <dt> VALIGN="top/middle/bottom"</dt>
+        <dd> posisi vertikan dalam baris </dd>
+        <dt> BGCOLOR="warna"</dt>
+        <dd> warna latar baris</dd>
+    </dl>
+    <p> tag selanjutnya...!</p>
+    <p> (td) tabel data/isi data</p>
+    <p> atributnya...!</p>
+    <br>
+    <br.
+    <dl>
+        <dt> COLSPAN="n"</dt>
+        <dd> gabung sel ke samping n kolom</dd>
+        <dt> ROWSPAN="n"</dt>
+        <dd> gabung sel ke bawah n baris</dd>
+        <dt> VALIGN="tp/middle/bottom"</dt>
+        <dd> rata teks vertikal</dd>
+        <dt> width="100"/height="50"</dt>
+        <dd> ukuran sel</dd>
+        <dt> BGCOLOR="warna"</dt>
+        <dd> warna backround sel</dd>
+        </dl>
+    <br>
+    <br>
+    <br>
+    <p> okehh. selanjutnya tag (th) tabel header/judul kolom/judul baris, berfungsi untuk sel judul(teksnya otomtis tebal+tengah)</p>
+    <p style="font-size: medium;">!!!! ATRIBUTNYA SAMA SEPERTI TAG (td) !!!!! </p>
+    <br>
+    <br>
+    <br>
+    <p> okeh lanjut. sekarang tentang tag (caption). berfungsi untuk kasih judul di atas tabel</p>
+    <p> atributnya cuman ada satu yaitu !!(ALIGN) berfungsi posisi judul</p>
+    <br>
+    <br>
+    <br>
+    <p> sekarang penjelasan tentang tag (THEAD) (TBODY) (TFOOT)</p>
+    <P> berfungsi untuk mengelompokan tabel</P>
+    <p>!! perlu diingati bahwa tag berikut ini TIDAK memiliki atribut!!!</p>
+    <dl>
+        <dt> (THEAD)/ KEPALA TABEL</dt>
+        <dd> biasanya berisi tag (th) </dd>
+        <dt> (TBODY)</dt>
+        <dd> isi tabel utama </dd>
+        <dt> (TFOOT)</dt>
+        <dd> ringkasan/total</dd>
+    </dl>
+<p> kalo contohnya nanti saja jika ada waktu hehehe.. (:</p>
+<br>
+<br>
+<br>
+<p> contoh tabel biasa!!!!</p>
+<br>
+<table border="2">
+    <caption> murid murid</caption>
+<tr>
+<th>NAMA</th>
+<th>UMUR</th>
+<th>ASAL</th>
+<th>TINGGI</th>
+</tr>
+<tr>
+    <td>deni</td>
+    <td>17</td>
+    <td>smpn 1 papepap</td>
+    <td>185 cm</td>
+</tr>
+<tr>
+    <td>makmur</td>
+    <td>16</td>
+    <td>smp 3 ceruang</td>
+    <td>175 cm</td>
+</tr>
+<tr>
+    <td>sangkuriang</td>
+    <td>18</td>
+    <td>smpn 4 liwetung</td>
+    <td>180 cm</td>
+</tr>
+    <td>cipapung</td>
+    <td>17</td>
+    <td>smp 2 tekisu</td>
+    <td>177 cm</td>
+</table>
+<br>
+<br>
+<br>
+<p> contoh tag (thead),(tbody),(tfoot) !!!</p>
+<table border="2" cellpadding="9" cellspacing="2">
+    <caption> TABEL HARGA BUAH-BUAHAN </caption>
+    <thead>
+        <tr>
+        <th>BUAH</th>
+        <th>HARGA</th>
+        <th>KUALITAS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>jeruk</td>
+        <td>Rp 10.000/kg</td>
+        <td>baik</td>
+        </tr>
+        <tr>
+        <td>semangka</td>
+        <td>Rp 4.000/buah</td>
+        <td>bagus</td>
+        </tr>
+        <tr>
+            <td>mangga</td>
+            <td>Rp 11.000/kg</td>
+            <td>baik</td>
+        </tr>
+        <tr>
+            <td>anggur</td>
+            <td>Rp 10.000/kg</td>
+            <td>bagus</td>
+        </tr>
+        <tfoot>
+            <td> jika beli semua per kg,maka harganya </td>
+            <td>Rp 30.000</td>
+            <td>kualitan sangat baik</td>
+        </tfoot>
+    </tbody>
+</table>
+<br>
+<br>
+<br>
+<table border="2" cellpading="3" cellspacing="3">
+    <caption style="color: blue;"> ORANG HUTANG </caption>
+    <br>
+    <tr>
+        <th rowspan="2"> NAMA </th>
+        <th colspan="2"> TANGGAL</th>
+        <th colspan="2"> NOMINAL</th>
+    </tr>
+    <tr>
+        <th> TANGGAL PINJAM </th>
+        <th> TANGGAL KEMBALI</th>
+        <th> UANG DIPINJAM </th>
+    </tr>
+    <tr>
+        <td> andi</td>
+        <td> 20-11=2025</td>
+        <td> 25-11-2025</td>
+        <td> Rp50.000</td>
+    </tr>
+    <tr>
+        <td> rehan</td>
+        <td> 20-11-2025</td>
+        <td> 25-11-2025</td>
+        <td> Rp10.000</td>
+    </tr>
+    <tr>
+        <td> fulan</td>
+        <td> 02-12-2025</td>
+        <td> 11-12-2025</td>
+        <td> Rp12.000</td>
+    </tr>
+</table>
+<br>
+<br>
+<marquee style="font-size: xx-large;"> SEMOGA KALIAN PAHAM YA !!!!!</marquee>
+</body>
+</html>
